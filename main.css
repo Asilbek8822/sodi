@@ -1,0 +1,53 @@
+body{
+    background: url(./img/computer_0103.JPG);
+    width: 100%;
+    height: 100px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin-left: 350px;
+    margin-top: 80px;
+}
+.box-1{
+    display: flex;
+}
+.box-2{
+    display: flex;
+    margin-left: 180px;
+}
+.in{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+.inp{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(176, 204, 204);
+    color: blue;
+}
+.btn{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: wheat;
+    color: red;
+}
+.echvan{
+    color: aqua;
+}
+.echvan:hover{
+    transition: 3s;
+    color: red;
+}
